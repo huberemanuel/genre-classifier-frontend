@@ -1,1 +1,35 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+* {
+  font-family: "Roboto-Regular";
+}
+
+.nav-wrapper {
+  width: 100;
+  background-color: black;
+  text-align: center;
+  overflow: hidden;
+  margin-left: -20px;
+  margin-top: -20px;
+  padding-top: 20px;
+}
+
+.nav-wrapper h1 {
+  color: white;
+}
+
+.predictedClass {
+  background-color: lightgray !important;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.bodyClass {
+  text-align: center;
+  max-width: 600px;
+  margin: auto;
+}
